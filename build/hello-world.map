@@ -18472,71 +18472,71 @@ END GROUP
                 0x000000004010562c                g_misc_nvs
                 0x0000000040105630                g_log_mod
                 0x0000000040105634                g_log_level
- *libfreertos.a:impure.*(.bss .bss.* COMMON)
- *libfreertos.a:list.*(.bss .bss.* COMMON)
- *libfreertos.a:queue.*(.bss .bss.* COMMON)
- *libfreertos.a:freertos_hooks.*(.bss .bss.* COMMON)
  *libfreertos.a:event_groups.*(.bss .bss.* COMMON)
- *libfreertos.a:timers.*(.bss .bss.* COMMON)
- .bss.xLastTime$4351
-                0x0000000040105638        0x4 /home/tahjram/esp/hello_world/build/freertos/libfreertos.a(timers.o)
- .bss.xTimerTaskHandle
-                0x000000004010563c        0x4 /home/tahjram/esp/hello_world/build/freertos/libfreertos.a(timers.o)
- .bss.xTimerQueue
-                0x0000000040105640        0x4 /home/tahjram/esp/hello_world/build/freertos/libfreertos.a(timers.o)
- .bss.pxOverflowTimerList
-                0x0000000040105644        0x4 /home/tahjram/esp/hello_world/build/freertos/libfreertos.a(timers.o)
- .bss.pxCurrentTimerList
-                0x0000000040105648        0x4 /home/tahjram/esp/hello_world/build/freertos/libfreertos.a(timers.o)
- .bss.xActiveTimerList2
-                0x000000004010564c       0x14 /home/tahjram/esp/hello_world/build/freertos/libfreertos.a(timers.o)
- .bss.xActiveTimerList1
-                0x0000000040105660       0x14 /home/tahjram/esp/hello_world/build/freertos/libfreertos.a(timers.o)
- *libfreertos.a:stream_buffer.*(.bss .bss.* COMMON)
  *libfreertos.a:tasks.*(.bss .bss.* COMMON)
  .bss.uxSchedulerSuspended
-                0x0000000040105674        0x4 /home/tahjram/esp/hello_world/build/freertos/libfreertos.a(tasks.o)
+                0x0000000040105638        0x4 /home/tahjram/esp/hello_world/build/freertos/libfreertos.a(tasks.o)
  .bss.xIdleTaskHandle
-                0x0000000040105678        0x4 /home/tahjram/esp/hello_world/build/freertos/libfreertos.a(tasks.o)
+                0x000000004010563c        0x4 /home/tahjram/esp/hello_world/build/freertos/libfreertos.a(tasks.o)
  .bss.xNextTaskUnblockTime
-                0x000000004010567c        0x4 /home/tahjram/esp/hello_world/build/freertos/libfreertos.a(tasks.o)
+                0x0000000040105640        0x4 /home/tahjram/esp/hello_world/build/freertos/libfreertos.a(tasks.o)
  .bss.uxTaskNumber
-                0x0000000040105680        0x4 /home/tahjram/esp/hello_world/build/freertos/libfreertos.a(tasks.o)
+                0x0000000040105644        0x4 /home/tahjram/esp/hello_world/build/freertos/libfreertos.a(tasks.o)
  .bss.xNumOfOverflows
-                0x0000000040105684        0x4 /home/tahjram/esp/hello_world/build/freertos/libfreertos.a(tasks.o)
+                0x0000000040105648        0x4 /home/tahjram/esp/hello_world/build/freertos/libfreertos.a(tasks.o)
  .bss.xYieldPending
-                0x0000000040105688        0x4 /home/tahjram/esp/hello_world/build/freertos/libfreertos.a(tasks.o)
+                0x000000004010564c        0x4 /home/tahjram/esp/hello_world/build/freertos/libfreertos.a(tasks.o)
  .bss.uxPendedTicks
-                0x000000004010568c        0x4 /home/tahjram/esp/hello_world/build/freertos/libfreertos.a(tasks.o)
+                0x0000000040105650        0x4 /home/tahjram/esp/hello_world/build/freertos/libfreertos.a(tasks.o)
  .bss.xSchedulerRunning
-                0x0000000040105690        0x4 /home/tahjram/esp/hello_world/build/freertos/libfreertos.a(tasks.o)
+                0x0000000040105654        0x4 /home/tahjram/esp/hello_world/build/freertos/libfreertos.a(tasks.o)
  .bss.uxTopReadyPriority
-                0x0000000040105694        0x4 /home/tahjram/esp/hello_world/build/freertos/libfreertos.a(tasks.o)
+                0x0000000040105658        0x4 /home/tahjram/esp/hello_world/build/freertos/libfreertos.a(tasks.o)
  .bss.xTickCount
-                0x0000000040105698        0x4 /home/tahjram/esp/hello_world/build/freertos/libfreertos.a(tasks.o)
+                0x000000004010565c        0x4 /home/tahjram/esp/hello_world/build/freertos/libfreertos.a(tasks.o)
  .bss.uxCurrentNumberOfTasks
-                0x000000004010569c        0x4 /home/tahjram/esp/hello_world/build/freertos/libfreertos.a(tasks.o)
+                0x0000000040105660        0x4 /home/tahjram/esp/hello_world/build/freertos/libfreertos.a(tasks.o)
  .bss.xSuspendedTaskList
-                0x00000000401056a0       0x14 /home/tahjram/esp/hello_world/build/freertos/libfreertos.a(tasks.o)
+                0x0000000040105664       0x14 /home/tahjram/esp/hello_world/build/freertos/libfreertos.a(tasks.o)
  .bss.uxDeletedTasksWaitingCleanUp
-                0x00000000401056b4        0x4 /home/tahjram/esp/hello_world/build/freertos/libfreertos.a(tasks.o)
+                0x0000000040105678        0x4 /home/tahjram/esp/hello_world/build/freertos/libfreertos.a(tasks.o)
  .bss.xTasksWaitingTermination
-                0x00000000401056b8       0x14 /home/tahjram/esp/hello_world/build/freertos/libfreertos.a(tasks.o)
+                0x000000004010567c       0x14 /home/tahjram/esp/hello_world/build/freertos/libfreertos.a(tasks.o)
  .bss.xPendingReadyList
-                0x00000000401056cc       0x14 /home/tahjram/esp/hello_world/build/freertos/libfreertos.a(tasks.o)
+                0x0000000040105690       0x14 /home/tahjram/esp/hello_world/build/freertos/libfreertos.a(tasks.o)
  .bss.pxOverflowDelayedTaskList
-                0x00000000401056e0        0x4 /home/tahjram/esp/hello_world/build/freertos/libfreertos.a(tasks.o)
+                0x00000000401056a4        0x4 /home/tahjram/esp/hello_world/build/freertos/libfreertos.a(tasks.o)
  .bss.pxDelayedTaskList
-                0x00000000401056e4        0x4 /home/tahjram/esp/hello_world/build/freertos/libfreertos.a(tasks.o)
+                0x00000000401056a8        0x4 /home/tahjram/esp/hello_world/build/freertos/libfreertos.a(tasks.o)
  .bss.xDelayedTaskList2
-                0x00000000401056e8       0x14 /home/tahjram/esp/hello_world/build/freertos/libfreertos.a(tasks.o)
+                0x00000000401056ac       0x14 /home/tahjram/esp/hello_world/build/freertos/libfreertos.a(tasks.o)
  .bss.xDelayedTaskList1
-                0x00000000401056fc       0x14 /home/tahjram/esp/hello_world/build/freertos/libfreertos.a(tasks.o)
+                0x00000000401056c0       0x14 /home/tahjram/esp/hello_world/build/freertos/libfreertos.a(tasks.o)
  .bss.pxReadyTasksLists
-                0x0000000040105710      0x12c /home/tahjram/esp/hello_world/build/freertos/libfreertos.a(tasks.o)
+                0x00000000401056d4      0x12c /home/tahjram/esp/hello_world/build/freertos/libfreertos.a(tasks.o)
  .bss.pxCurrentTCB
-                0x000000004010583c        0x4 /home/tahjram/esp/hello_world/build/freertos/libfreertos.a(tasks.o)
-                0x000000004010583c                pxCurrentTCB
+                0x0000000040105800        0x4 /home/tahjram/esp/hello_world/build/freertos/libfreertos.a(tasks.o)
+                0x0000000040105800                pxCurrentTCB
+ *libfreertos.a:freertos_hooks.*(.bss .bss.* COMMON)
+ *libfreertos.a:list.*(.bss .bss.* COMMON)
+ *libfreertos.a:timers.*(.bss .bss.* COMMON)
+ .bss.xLastTime$4351
+                0x0000000040105804        0x4 /home/tahjram/esp/hello_world/build/freertos/libfreertos.a(timers.o)
+ .bss.xTimerTaskHandle
+                0x0000000040105808        0x4 /home/tahjram/esp/hello_world/build/freertos/libfreertos.a(timers.o)
+ .bss.xTimerQueue
+                0x000000004010580c        0x4 /home/tahjram/esp/hello_world/build/freertos/libfreertos.a(timers.o)
+ .bss.pxOverflowTimerList
+                0x0000000040105810        0x4 /home/tahjram/esp/hello_world/build/freertos/libfreertos.a(timers.o)
+ .bss.pxCurrentTimerList
+                0x0000000040105814        0x4 /home/tahjram/esp/hello_world/build/freertos/libfreertos.a(timers.o)
+ .bss.xActiveTimerList2
+                0x0000000040105818       0x14 /home/tahjram/esp/hello_world/build/freertos/libfreertos.a(timers.o)
+ .bss.xActiveTimerList1
+                0x000000004010582c       0x14 /home/tahjram/esp/hello_world/build/freertos/libfreertos.a(timers.o)
+ *libfreertos.a:stream_buffer.*(.bss .bss.* COMMON)
+ *libfreertos.a:impure.*(.bss .bss.* COMMON)
+ *libfreertos.a:queue.*(.bss .bss.* COMMON)
  *liblwip.a:(.bss .bss.* COMMON)
                 0x0000000040105840                . = ALIGN (0x4)
                 0x0000000040105840                _iram_bss_end = ABSOLUTE (.)
@@ -18661,7 +18661,7 @@ END GROUP
 .dram0.bss      0x000000003ffe8550     0x1938
                 0x000000003ffe8550                . = ALIGN (0x8)
                 0x000000003ffe8550                _bss_start = ABSOLUTE (.)
- *(EXCLUDE_FILE(*liblwip.a *libfreertos.a:impure.* *libfreertos.a:list.* *libfreertos.a:queue.* *libfreertos.a:freertos_hooks.* *libfreertos.a:event_groups.* *libfreertos.a:timers.* *libfreertos.a:stream_buffer.* *libfreertos.a:tasks.* *libcore.a) .bss EXCLUDE_FILE(*liblwip.a *libfreertos.a:impure.* *libfreertos.a:list.* *libfreertos.a:queue.* *libfreertos.a:freertos_hooks.* *libfreertos.a:event_groups.* *libfreertos.a:timers.* *libfreertos.a:stream_buffer.* *libfreertos.a:tasks.* *libcore.a) .bss.* EXCLUDE_FILE(*liblwip.a *libfreertos.a:impure.* *libfreertos.a:list.* *libfreertos.a:queue.* *libfreertos.a:freertos_hooks.* *libfreertos.a:event_groups.* *libfreertos.a:timers.* *libfreertos.a:stream_buffer.* *libfreertos.a:tasks.* *libcore.a) COMMON)
+ *(EXCLUDE_FILE(*liblwip.a *libfreertos.a:event_groups.* *libfreertos.a:tasks.* *libfreertos.a:freertos_hooks.* *libfreertos.a:list.* *libfreertos.a:timers.* *libfreertos.a:stream_buffer.* *libfreertos.a:impure.* *libfreertos.a:queue.* *libcore.a) .bss EXCLUDE_FILE(*liblwip.a *libfreertos.a:event_groups.* *libfreertos.a:tasks.* *libfreertos.a:freertos_hooks.* *libfreertos.a:list.* *libfreertos.a:timers.* *libfreertos.a:stream_buffer.* *libfreertos.a:impure.* *libfreertos.a:queue.* *libcore.a) .bss.* EXCLUDE_FILE(*liblwip.a *libfreertos.a:event_groups.* *libfreertos.a:tasks.* *libfreertos.a:freertos_hooks.* *libfreertos.a:list.* *libfreertos.a:timers.* *libfreertos.a:stream_buffer.* *libfreertos.a:impure.* *libfreertos.a:queue.* *libcore.a) COMMON)
  .bss.s_nmi_wd_state
                 0x000000003ffe8550        0x4 /home/tahjram/esp/hello_world/build/esp8266/libesp8266.a(task_wdt.o)
  .bss.s_reset_reason
