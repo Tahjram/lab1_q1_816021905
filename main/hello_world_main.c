@@ -1,11 +1,3 @@
-/* Hello World Example
-
-   This example code is in the Public Domain (or CC0 licensed, at your option.)
-
-   Unless required by applicable law or agreed to in writing, this
-   software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
-   CONDITIONS OF ANY KIND, either express or implied.
-*/
 #include <stdio.h>
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
@@ -15,7 +7,7 @@
 
 void app_main()
 {
-    printf("Tahj Ramudith\nID:816021905\n");
+    printf("Tahj Ramudith\nID:816021905\n");            //Print Name and ID
 
     /* Print chip information */
     esp_chip_info_t chip_info;
@@ -28,7 +20,7 @@ void app_main()
     printf("%dMB %s flash\n", spi_flash_get_chip_size() / (1024 * 1024),
             (chip_info.features & CHIP_FEATURE_EMB_FLASH) ? "embedded" : "external");
 
-    for (int i = 10; i >= 0; i--) {
+    for (int i = 10; i >= 0; i--) {                     //Set timer to 10 since 95 % 17 = 10
         printf("Restarting in %d seconds...\n", i);
         vTaskDelay(1000 / portTICK_PERIOD_MS);
     }
